@@ -1,0 +1,316 @@
+/* .sub {
+} */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section article {
+    /* min-height: calc(100vh - 88px); */
+}
+
+section .toolbar {
+    width: 74px;
+    background-color: #535353;
+    border-right: 1px solid #383838;
+    box-sizing: border-box;
+}
+
+section .background {
+    width: calc(100% - 74px - 287px);
+    background-color: #282828;
+    box-sizing: border-box;
+}
+
+section .layer {
+    width: 287px;
+    background-color: #535353;
+    border-left: 1px solid #383838;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+section .layer > div {
+    /* display: flex;
+    flex-direction: column;
+    flex: auto; */
+}
+
+section .toolbar .tool_top {
+    width: 100%;
+    background-color: #424242;
+    border-top: 1px solid #383838;
+}
+
+section .toolbar>img {
+    display: block;
+    margin: 10px auto;
+}
+
+section .toolbar .tool_top img {
+    display: block;
+    padding: 5px;
+}
+
+section .toolbar .tool_list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 5px;
+    margin-top: 10px;
+}
+
+section .toolbar .tool_list li {
+    width: 50%;
+    padding: 5.5px;
+    box-sizing: border-box;
+}
+
+section .toolbar .tool_list li:hover {
+    background-color: #454545;
+}
+
+section .toolbar .tool_list li img {
+    max-width: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+section .toolbar .color_pick {
+    width: 43px;
+    height: 43px;
+    margin: 10px auto;
+    position: relative;
+}
+
+section .toolbar .color_pick>div {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}
+
+section .toolbar .color_pick>div:nth-child(1) {
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1;
+    border: 1px solid #363636;
+    padding: 1px;
+}
+
+section .toolbar .color_pick>div:nth-child(1)>div {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+section .toolbar .color_pick>div:nth-child(2) {
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #363636;
+}
+
+section .toolbar .color_pick>div:nth-child(3) {
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+section .toolbar .color_pick>div:nth-child(3) img {
+    display: block;
+    margin-left: auto;
+}
+
+section .background .status_top,
+section .layer .status_top,
+section .layer .status_bottom {
+    width: 100%;
+    background-color: #424242;
+    border-top: 1px solid #383838;
+    display: flex;
+}
+
+section .background .status_top li,
+section .layer .status_top li,
+section .layer .status_bottom li {
+    background-color: #424242;
+    padding: 8px 10px;
+    font-size: 12px;
+    color: #a0a0a0;
+    border-right: 1px solid #383838;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+section .background .status_top li:hover,
+section .layer .status_top li:hover,
+section .layer .status_bottom li:hover {
+    color: #f0f0f0;
+}
+
+section .background .status_top li.active {
+    background-color: #535353;
+    padding: 8px 10px;
+    font-size: 12px;
+    color: #f0f0f0;
+    border-right: 1px solid #383838;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+section .layer .status_top li.active,
+section .layer .status_bottom li.active {
+    background-color: #535353;
+    padding: 8px 10px;
+    font-size: 12px;
+    color: #f0f0f0;
+    border-right: 1px solid #383838;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: -1px;
+}
+
+section .background .board {
+    width: 100%;
+    height: calc(100vh - 34px - 88px);
+    min-height: calc(100% - 34px);
+    border-top: 1px solid #383838;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.stauts_container {
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+section .background .board img {
+    display: block;
+    width: 100%;
+}
+
+section .layer .status_explantion {
+    padding: 10px;
+    overflow-y: auto;
+}
+
+section .layer .status_explantion h5{
+    font-size: 12px;
+    font-weight: 300;
+    color: #f0f0f0;
+    margin-top: 15px;
+}
+
+section .layer .status_explantion h5:nth-child(1){
+    margin-top: 0;
+}
+
+section .layer .status_explantion .concept, .function, .stack{
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0f0f0;
+    margin-top: 5px;
+}
+
+section .layer .status_content {
+    border-top: 1px solid #383838;
+    flex: auto;
+    min-height: 260px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+section .layer .status_content dl {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #3e3e3e;
+    cursor: pointer;
+}
+
+section .layer .status_content dl:hover {
+    background-color: #6b6b6b;
+}
+
+section .layer .status_content dl.current {
+    background-color: #6b6b6b;
+}
+
+section .layer .status_content dl dt {
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+section .layer .status_content dl dt img {
+    display: block;
+    max-width: 15px;
+}
+
+section .layer .status_content dl dd:nth-child(2) img {
+    display: block;
+    max-width: 32px;
+}
+
+section .layer .status_content dl dd {
+    color: #f0f0f0;
+}
+
+section .layer .status_content dl dd:nth-child(3) {
+    color: #f0f0f0;
+    font-size: 12px;
+    padding: 0px 10px;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.slide_wrap {
+    display: flex;
+    transition: 0.3s ease-out;
+    user-select: none;
+}
+
+@media (max-width:1462px) {
+    /* section .background .board {
+        position: relative;
+        overflow: auto;
+    }
+
+    .stauts_container{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    } */
+}
+
+@media (max-width:1050px) {
+    section .toolbar {
+        width: 100%;
+        display: none;
+    }
+
+    section .background {
+        width: 100%;
+    }
+
+    section .background .board {
+        height: calc(100% - 34px);
+    }
+
+    section .layer {
+        width: 100%;
+    }
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="프론트엔드 개발자 위향훈 포트폴리오 사이트" />
+    <meta name="Keywords" content="Web, html, 웹 표준, 포트폴리오, 프론트엔드" />
+    <meta name="Description" content="Web, html, 웹 표준, 포트폴리오, 프론트엔드" />
+    <meta http-equiv="Author" content="Wihyanghoon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 오픈그래프 카카오톡 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="프론트엔드 개발자 위향훈 포트폴리오 사이트" />
+    <meta property="og:url" content="http://traelcode95.com/" />
+    <meta property="og:description" content="프론트엔드 개발자 위향훈의 개인 포트폴리오 사이트 입니다." />
+    <meta property="og:image" content="./img/og/og_kakao.jpg" />
+    <!-- 1200 * 630 권장 -->
+    <meta property="og:site_name" content="AdobePhotoShop : 위향훈 포티폴리오 사이트" />
+
+    <!-- 오픈그래프 트위터 -->
+    <meta name="twitter:title" content="위향훈 포트폴리오" />
+    <meta name="twitter:site" content="http://traelcode95.com/" />
+    <meta name="twitter:image" content="http://traelcode95.com/" />
+    <meta name="twitter:description" content="프론트엔드 개발자 위향훈 포트폴리오 사이트" />
+    <!-- 파비콘 -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="./img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/loading.css">
+    <link rel="stylesheet" href="./css/profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <title>AdobePhotoShop : 프론트엔드 개발자 위향훈 포트폴리오</title>
+</head>
+
+<body class="main" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <!-- 오픈 프로필 팝업 -->
+    <div class="profile_popup">
+        <div class="profile_back" style="display: block;">
+            <dl>
+                <dt>New Document</dt>
+                <dd onclick="closeProfile()">
+                    <span class="close"></span>
+                </dd>
+            </dl>
+            <nav>
+                <ul>
+                    <li>자기소개</li>
+                    <li>자격증</li>
+                </ul>
+            </nav>
+            <ul class="user_profile_cardwrap">
+                <li class="user_life">
+                    <div>
+                        <h4>MY LIFE</h4>
+                        <p>
+                            <!-- 안녕하십니까 프론트엔드 개발자를 꿈꾸는 위향훈 입니다.
+                            ux / ui의 관심이 많아 디자인의 관심이 생겨 디자인을 시작으로
+                            직접 나의 생각을 바로 만들어 구현해 볼수있는 퍼블리셔라는 직업의 관심이 생겨 도전하였다가. -->
+                        </p>
+                    </div>
+                    <footer>
+                        <div class="footer_container">
+                            <input type="text" name="tel" value="010-4437-5646"><button><a
+                                    href="tel:010-4437-5646">Tel</a></button>
+                        </div>
+                    </footer>
+                </li>
+                <li class="user_detail">
+                    <form action="">
+                        <h4>USER DETAIL</h4>
+                        <input type="text" name="name" id="name" value="위향훈">
+                        <ul class="input_flex_wrap">
+                            <li>
+                                <label for="age">Age</label>
+                                <input type="text" name="age" id="age" value="1995.09.17 (만 27세)">
+                            </li>
+                            <li>
+                                <label for="gender">Gender</label>
+                                <input type="text" name="gender" id="gender" value="남자" disabled>
+                            </li>
+                        </ul>
+                        <div>
+                            <label for="education">Education</label>
+                            <ul class="input_flex_wrap">
+                                <li>
+                                    <input type="text" name="age" id="age" value="2014.03 ~ 2018.02">
+                                </li>
+                                <li>
+                                    <input type="text" name="gender" id="gender" value="장안대학교 시각디자인" disabled>
+                                </li>
+                            </ul>
+                        </div>
+                        <label for="adress">Adress</label>
+                        <input type="text" name="adress" value="PSWC 20기 발탁 / 벤처기업협회">
+                        <input type="text" name="adress" value="예비창업패키지 2020 지원/ 중소벤처기업부">
+                        <div>
+                            <label for="work">Work Experience</label>
+                            <ul class="input_flex_wrap">
+                                <li>
+                                    <input type="text" name="work" id="work" value="2021.03 ~ 2022.03" disabled>
+                                </li>
+                                <li>
+                                    <input type="text" name="work" id="work" value="이팝 웹 개발팀" disabled>
+                                </li>
+                                <li>
+                                    <input type="text" name="work" id="work" value="2021.03 ~ 2022.07" disabled>
+                                </li>
+                                <li>
+                                    <input type="text" name="work" id="work" value="웹 개발팀 외주 (수자원공사 담당)" disabled>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="input_flex_wrap">
+                            <button type="button"><a href="./pdf/">Download</a></button>
+                            <button type="button" onclick="closeProfile()">Close</button>
+                        </div>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 오픈 프로필 팝업 -->
+
+
+    <div id="wrap">
+        <header>
+        </header>
+        <section>
+            <article id="left_menu">
+                <span>Home</span>
+                <ul>
+                    <li><a href="./pdf/portfolio.pdf" target="_blank">Open PDF</a></li>
+                    <li onclick="openProfile()">Open Profile</li>
+                    <li><a href="./pdf/resume.pdf" target="_blank">Open resume</a></li>
+                </ul>
+            </article>
+            <article id="right_menu">
+                <h1 id="main_text"></h1>
+                <div class="skill_area">
+                    <h2>Front End</h2>
+                    <ul class="skill_area_ul">
+                        <li>
+                            <img src="./img/stack/ps_line.png" alt="">
+                            <h3>Adobe Photoshop</h3>
+                        </li>
+                        <li>
+                            <img src="./img/stack/illu_line.png" alt="">
+                            <h3>Adobe Illustrator</h3>
+                        </li>
+                        <li>
+                            <img src="./img/stack/js_line.png" alt="">
+                            <h3>JavaScript</h3>
+                        </li>
+                        <li>
+                            <img src="./img/stack/react_line.png" alt="">
+                            <h3>React</h3>
+                        </li>
+                    </ul>
+                    <h2>Back End</h2>
+                    <ul class="skill_area_ul">
+                        <li>
+                            <img src="./img/stack/node_line.png" alt="">
+                            <h3>Node</h3>
+                        </li>
+                        <li>
+                            <img src="./img/stack/ex_line.png" alt="">
+                            <h3>Express</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project_area">
+                    <div class="project_area_top">
+                        <h2>Project</h2>
+                        <div class="align_btn_wrap">
+                            <ul>
+                                <li>
+                                    <img src="./img/icon/align_list.png" alt="1">
+                                </li>
+                                <li class="back_active">
+                                    <img src="./img/icon/align_grid.png" alt="2">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 드롭다운 메뉴 -->
+                    <span style="color: #fff; margin-right: 15px;">Sort</span>
+                    <div class="dropdown">
+                        <button class="dropbtn dropbtn_click">
+                            <span class="dropbtn_icon dropbtn_click">정렬</span>
+                            <span class="dropbtn_content dropbtn_click">방법을 선택하세요.</span>
+                            <span class="arrow dropbtn_click"
+                                style="font-family: Material Icons; font-size : 16px; color : #fff; float:right;" onclick="dropdown()"></span>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="fastfood" onclick="showMenu(this.innerText)">번호</div>
+                            <div class="fastfood" onclick="showMenu(this.innerText)">제목</div>
+                            <div class="fastfood" onclick="showMenu(this.innerText)">날짜</div>
+                        </div>
+                    </div>
+                    <!-- 프로젝트 카드 부분 -->
+                    <ul class="pro_wrap">
+
+                    </ul>
+                    <table class="list_table" style="display: none;">
+                        <thead>
+                            <tr>
+                                <th>No.</th>
+                                <th>Name</th>
+                                <th>&nbsp;</th>
+                                <th>Stack</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+        </section>
+        <footer></footer>
+    </div>
+    <script src="./js/data.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
