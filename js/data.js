@@ -2,19 +2,18 @@ const projectList = [
     {
         id: 1,
         No: 1,
-        title: '리액트프로젝트 - Moobpl',
+        title: '팀 프로젝트 - Moobpl',
         img: [
             "./img/preject/photoshop01.jpg",
             "./img/preject/photoshop02.jpg",
         ],
         mainImg: "./img/preject/photoshop.jpg",
-        stack: "React.js, express.js",
-        date: "2022.11 ~ 2022.12",
-        desc: "디자인 및 기능개발",
+        stack: "React.js, Express.js",
+        date: "2022.12 ~ 2023.02",
+        desc: "기획 디자인 및 프론트엔드, 백엔드 개발",
         explanation: {
-            concept: `개인 포트폴리오 사이트로 디자이너 출신인 정체성을 나타내고 싶어서 포토샵 프로그램을 컨셉으로 사이트를 제작했습니다`,
-            function: `배열을 통해서 데이터를 뿌려주고 배열 정렬을 통해 작품을 번호, 제목, 날짜 등으로 재정렬하여 출력할 수 있는 기능을 만들었습니다.
-            또한, URL의 쿼리값을 통하여 상세페이지의 데이터를 불러오도록 제작하였습니다.`
+            concept: `팀 프로젝트로 진행한 프로젝트로 프론트엔드 React.js 백엔드 Express.js로 개발 하였습니다.`,
+            function: `소스코드는 깃허브를 확인 해주세요.`
         }
     },
     {
