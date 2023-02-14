@@ -1,6 +1,6 @@
 const projectList = [
     {
-        id: 1,
+        id: 6565,
         No: 1,
         title: '팀 프로젝트 - Moobpl',
         img: [
@@ -13,12 +13,12 @@ const projectList = [
         desc: "기획 디자인 및 프론트엔드, 백엔드 개발",
         explanation: {
             concept: `팀 프로젝트로 진행한 프로젝트로 프론트엔드 React.js 백엔드 Express.js로 개발 하였습니다.`,
-            function: `소스코드는 깃허브를 확인 해주세요.`
+            function: `세션방식 로그인 구현, 기본 CRUD 기능`
         }
     },
     {
-        id: 1,
-        No: 1,
+        id: 454214,
+        No: 2,
         title: '포트폴리오사이트 - The PhotoShop',
         img: [
             "./img/preject/photoshop01.jpg",
@@ -27,7 +27,7 @@ const projectList = [
         mainImg: "./img/preject/photoshop.jpg",
         stack: "Html/CSS, Javascript",
         date: "2022.11 ~ 2022.12",
-        desc: "디자인 및 기능개발",
+        desc: "기획 디자인 및 기능개발",
         explanation: {
             concept: `개인 포트폴리오 사이트로 디자이너 출신인 정체성을 나타내고 싶어서 포토샵 프로그램을 컨셉으로 사이트를 제작했습니다`,
             function: `배열을 통해서 데이터를 뿌려주고 배열 정렬을 통해 작품을 번호, 제목, 날짜 등으로 재정렬하여 출력할 수 있는 기능을 만들었습니다.
@@ -36,7 +36,7 @@ const projectList = [
     },
     {
         id: 12312321,
-        No: 2,
+        No: 3,
         title: '수자원공사 - 물, 자연 그리고 사람',
         img: [
             "./img/preject/k-water01.jpg",
@@ -49,7 +49,7 @@ const projectList = [
         url: "http://www.k-waterwebzine.com/"
     }, {
         id: 12312312,
-        No: 3,
+        No: 4,
         title: '대한주택건설협회 - 주택플러스',
         img: [
             "./img/preject/plus-h01.jpg",
@@ -62,7 +62,7 @@ const projectList = [
         url: "http://www.plus-h.co.kr/"
     }, {
         id: 23123123123,
-        No: 4,
+        No: 5,
         title: '하이원리조트 - 1340',
         img: [
             "./img/preject/1340-01.jpg",
@@ -76,7 +76,7 @@ const projectList = [
     },
     {
         id: 31235465676787,
-        No: 5,
+        No: 6,
         title: 'LH 한국토지주택공사 - withLH',
         img: [
             "./img/preject/lh01.jpg",
@@ -89,7 +89,7 @@ const projectList = [
         url: "http://webzine.lh.or.kr/"
     }, {
         id: 4557657654543,
-        No: 6,
+        No: 7,
         title: '한국남동발전 - 남동愛',
         img: [
             "./img/preject/koen01.jpg",
@@ -101,7 +101,7 @@ const projectList = [
         desc: "유지보수 및 통계관리",
     }, {
         id: 45454545231175675,
-        No: 7,
+        No: 8,
         title: '토이프로젝트 - Mctavish 리뉴얼',
         img: [
             "./img/preject/mctavish.jpg",
@@ -113,7 +113,7 @@ const projectList = [
         desc: "디자인 및 퍼블리싱",
     }, {
         id: 7872235532333454,
-        No: 8,
+        No: 9,
         title: '토이프로젝트 - Ducati 리뉴얼',
         img: [
             "./img/preject/ducati.jpg",
@@ -129,7 +129,7 @@ const projectList = [
 const subData = [
     {
         id: 78912371293082,
-        No: 10,
+        No: 11,
         title: '토이프로젝트 - 가위바위보',
         img: [
             "./img/preject/ducati.jpg",
@@ -142,7 +142,7 @@ const subData = [
     },
     {
         id: 2571982357239857239,
-        No: 10,
+        No: 12,
         title: '토이프로젝트 - MBTI 테스트',
         img: [
             "./img/preject/ducati.jpg",
