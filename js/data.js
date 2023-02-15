@@ -7,10 +7,11 @@ const projectList = [
             "./img/preject/moobpl01.jpg",
             "./img/preject/moobpl02.jpg",
         ],
-        mainImg: "./img/preject/moobple.jpg",
+        mainImg: "./img/preject/moobpl.jpg",
         stack: "React.js, Express.js",
         date: "2022.12 ~ 2023.02",
         desc: "기획 디자인 및 프론트엔드, 백엔드 개발",
+        url:"http://www.travelcode95.com",
         explanation: {
             concept: `팀 프로젝트로 진행한 프로젝트로 프론트엔드 React.js 백엔드 Express.js로 개발 하였습니다.`,
             function: `세션방식 로그인 구현, 기본 CRUD 기능`
