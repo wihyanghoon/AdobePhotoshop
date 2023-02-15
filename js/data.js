@@ -4,10 +4,10 @@ const projectList = [
         No: 1,
         title: '팀 프로젝트 - Moobpl',
         img: [
-            "./img/preject/photoshop01.jpg",
-            "./img/preject/photoshop02.jpg",
+            "./img/preject/moobpl01.jpg",
+            "./img/preject/moobpl02.jpg",
         ],
-        mainImg: "./img/preject/photoshop.jpg",
+        mainImg: "./img/preject/moobple.jpg",
         stack: "React.js, Express.js",
         date: "2022.12 ~ 2023.02",
         desc: "기획 디자인 및 프론트엔드, 백엔드 개발",
