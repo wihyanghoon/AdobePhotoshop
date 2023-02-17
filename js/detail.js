@@ -85,7 +85,7 @@ const getInfo = () => {
             </div>`
 
             if (projectList[i].explanation) {
-                concept.innerText = `${projectList[i].explanation.concept}`
+                concept.innerText = `${projectList[i].explanation.info}`
                 func.innerText = `${projectList[i].explanation.function}`
                 stack.innerText = `${projectList[i].stack}`
             }
