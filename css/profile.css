@@ -53,6 +53,7 @@
     content: "\00d7";
     font-size: 15pt;
     font-family: none;
+    line-height: 37px;
 }
 
 .profile_back dl dd span:nth-child(2) {
