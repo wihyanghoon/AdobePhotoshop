@@ -324,7 +324,7 @@ input[name="tel"] {
 @media (max-width: 899px) {
 
     .user_profile_cardwrap .user_life>div {
-        max-height: 200px;
+        max-height: 400px;
         overflow-y: scroll;
         overflow-x: hidden;
         padding: 20px;
