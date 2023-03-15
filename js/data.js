@@ -1,7 +1,7 @@
 const projectList = [
     {
         id: 31231231,
-        No: 411,
+        No: 1,
         title: '토이 프로젝트 - Blended',
         img: [
             "./img/preject/moobpl01.jpg",
@@ -21,7 +21,7 @@ const projectList = [
     },
     {
         id: 5656765,
-        No: 1,
+        No: 2,
         title: '팀 프로젝트 - Moobpl',
         img: [
             "./img/preject/moobpl01.jpg",
@@ -41,7 +41,7 @@ const projectList = [
     },
     {
         id: 454214,
-        No: 2,
+        No: 3,
         title: '포트폴리오사이트 - The PhotoShop',
         img: [
             "./img/preject/photoshop01.jpg",
@@ -61,7 +61,7 @@ const projectList = [
     },
     {
         id: 12312321,
-        No: 3,
+        No: 4,
         title: '수자원공사 - 물, 자연 그리고 사람',
         img: [
             "./img/preject/k-water01.jpg",
@@ -79,7 +79,7 @@ const projectList = [
         }
     }, {
         id: 12312312,
-        No: 4,
+        No: 5,
         title: '대한주택건설협회 - 주택플러스',
         img: [
             "./img/preject/plus-h01.jpg",
@@ -97,7 +97,7 @@ const projectList = [
         }
     }, {
         id: 23123123123,
-        No: 5,
+        No: 6,
         title: '하이원리조트 - 1340',
         img: [
             "./img/preject/1340-01.jpg",
@@ -116,7 +116,7 @@ const projectList = [
     },
     {
         id: 31235465676787,
-        No: 6,
+        No: 7,
         title: 'LH 한국토지주택공사 - withLH',
         img: [
             "./img/preject/lh01.jpg",
@@ -134,7 +134,7 @@ const projectList = [
         }
     }, {
         id: 4557657654543,
-        No: 7,
+        No: 8,
         title: '한국남동발전 - 남동愛',
         img: [
             "./img/preject/koen01.jpg",
@@ -150,33 +150,4 @@ const projectList = [
             stack: "Html/CSS, Javscript, jQerry",
         }
     }
-]
-
-const subData = [
-    {
-        id: 78912371293082,
-        No: 11,
-        title: '토이프로젝트 - 가위바위보',
-        img: [
-            "./img/preject/ducati.jpg",
-            "./img/preject/project-ducati2.jpg",
-        ],
-        mainImg: "./img/preject/k-water.jpg",
-        stack: "React, Javascript",
-        date: "2021.04 ~ 2021.12",
-        desc: "기능개발",
-    },
-    {
-        id: 2571982357239857239,
-        No: 12,
-        title: '토이프로젝트 - MBTI 테스트',
-        img: [
-            "./img/preject/ducati.jpg",
-            "./img/preject/ducati.jpg",
-        ],
-        mainImg: "./img/preject/k-water.jpg",
-        stack: "Javscript",
-        date: "2021.04 ~ 2021.12",
-        desc: "기능개발",
-    },
 ]
