@@ -103,7 +103,7 @@ const getInfo = () => {
             }
 
             if (projectList[i].explanation.github){
-                gitgub.innerText = `Git`
+                gitgub.innerText = `Github`
                 githubUrl.innerText = `${projectList[i].explanation.github}`
                 githubUrl.href = `${projectList[i].explanation.github}`
             }

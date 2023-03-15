@@ -36,6 +36,7 @@ const projectList = [
             info: `팀 프로젝트로 진행한 프로젝트로 프론트엔드 React.js 백엔드 Express.js로 개발 하였습니다.`,
             function: `세션방식 로그인 구현, 기본 CRUD 기능, 상태관리 리덕스 툴킷 사용`,
             stack: "React.js, Express.js",
+            github : "https://github.com/Moobpl/Moobpl",
         }
     },
     {
@@ -55,6 +56,7 @@ const projectList = [
             function: `배열을 통해서 데이터를 뿌려주고 배열 정렬을 통해 작품을 번호, 제목, 날짜 등으로 재정렬하여 출력할 수 있는 기능을 만들었습니다.
             또한, URL의 쿼리값을 통하여 상세페이지의 데이터를 불러오도록 제작하였습니다.`,
             stack: "Html/CSS, Javascript",
+            github : "https://github.com/wihyanghoon/AdobePhotoshop",
         }
     },
     {
