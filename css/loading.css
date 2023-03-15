@@ -10,12 +10,6 @@
     
 }
 
-@media screen and (max-width: 600px){
-    .loading_back {
-        background-size: 100%;
-    }
-}
-
 .loading_wrap {
     height: 100%;
     min-height: 100vh;

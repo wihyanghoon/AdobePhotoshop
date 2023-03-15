@@ -14,7 +14,9 @@ const background = document.querySelectorAll(".background .status_top li"),
     func = document.querySelector(".status_explantion .function"),
     stack = document.querySelector(".status_explantion .stack"),
     layer_container = document.querySelector(".layer_container"),
-    title = document.getElementsByTagName("title")[0]
+    title = document.getElementsByTagName("title")[0],
+    gitgub = document.querySelector(".status_explantion #github"),
+    githubUrl = document.querySelector(".status_explantion #githubUrl")
 
 window.onload = () => {
     getInfo()
@@ -100,6 +102,12 @@ const getInfo = () => {
                 wrap.appendChild(createA)
             }
 
+            if (projectList[i].explanation.github){
+                gitgub.innerText = `Git`
+                githubUrl.innerText = `${projectList[i].explanation.github}`
+                githubUrl.href = `${projectList[i].explanation.github}`
+            }
+
             for (let j = 0; j < projectList.length; j++) {
                 const createDl = document.createElement("dl")
                 status_content.appendChild(createDl)
@@ -115,7 +123,6 @@ const getInfo = () => {
                 if (getParms === projectList[j].id) {
                     layers[j].classList.add("current")
                 }
-
 
                 layers.forEach((layer, num) => {
                     layer.addEventListener("click", function () {

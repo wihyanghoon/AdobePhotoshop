@@ -1,6 +1,26 @@
 const projectList = [
     {
         id: 5656765,
+        No: 411,
+        title: '토이 프로젝트 - Blended',
+        img: [
+            "./img/preject/moobpl01.jpg",
+            "./img/preject/moobpl02.jpg",
+        ],
+        mainImg: "./img/preject/moobpl.jpg",
+        stack: "React.js with TypeScript",
+        date: "2022.03 ~ 2023.03",
+        desc: "기획 디자인 및 프론트엔드 개발",
+        url:"https://moobplback.herokuapp.com",
+        explanation: {
+            info: `React.js with TypeScript를 이용한 그라디언트 제네레이터 사이트 입니다.`,
+            function: `state값의 변경에 따른 폰트 및 CSS 변경 기능`,
+            stack: "React.js, Typescript",
+            github : "https://github.com/wihyanghoon/Blended",
+        }
+    },
+    {
+        id: 5656765,
         No: 1,
         title: '팀 프로젝트 - Moobpl',
         img: [

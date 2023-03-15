@@ -218,7 +218,7 @@ section .layer .status_explantion h5:nth-child(1){
     margin-top: 0;
 }
 
-section .layer .status_explantion .concept, .function, .stack{
+section .layer .status_explantion .concept, .function, .stack, #githubUrl{
     font-size: 12px;
     line-height: 22px;
     color: #f0f0f0;
