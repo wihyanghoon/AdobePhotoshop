@@ -9,7 +9,7 @@
 개인 포트폴리오 사이트를 제작 해보고 싶어 기획하고 제작하게 되었습니다.
 
 #### 프로젝트 URL
-https://wihyanghoon.github.io/Blended
+http://www.travelcode95.com/
 
 ## 팀원 구성
 | **위향훈(프론트엔드)** |
