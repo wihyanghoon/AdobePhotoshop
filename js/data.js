@@ -14,7 +14,7 @@ const projectList = [
         url:"https://wihyanghoon.github.io/Blended",
         explanation: {
             info: `React.js with TypeScript를 이용한 그라디언트 제네레이터 사이트 입니다.`,
-            function: `state값의 변경에 따른 폰트 및 CSS 변경 기능`,
+            function: `state값의 변경에 따른 폰트 및 CSS 변경 기능, AOS 라이브러리 이용한 스크롤 애니메이션 제작`,
             stack: "React.js, Typescript",
             github : "https://github.com/wihyanghoon/Blended",
         }
