@@ -78,7 +78,7 @@ const getInfo = () => {
 
     for (let i = 0; i < projectList.length; i++) {
         if (getParms === projectList[i].id) {
-            title.innerText = `${projectList[i].title}`
+            title.innerText = `위향훈 포트폴리오 | ${projectList[i].title}`
             backgroundTitle.innerText = `${projectList[i].title}.jpg @ 100% (RGB/8#)`
             stauts_container.innerHTML = `
             <div class="slide_wrap">
