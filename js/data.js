@@ -9,7 +9,7 @@ const projectList = [
         ],
         mainImg: "./img/preject/blended.jpg",
         stack: "Pug, Express.js",
-        date: "2022.04 ~ 2023.04",
+        date: "2023.04 ~ 2023.04",
         desc: "프론트엔드, 백엔드 개발",
         url:"https://recipevideo.herokuapp.com/",
         explanation: {
@@ -49,7 +49,7 @@ const projectList = [
         ],
         mainImg: "./img/preject/blended.jpg",
         stack: "React.js with TypeScript, Recoil, React Query",
-        date: "2022.04 ~ 2023.04",
+        date: "2023.04 ~ 2023.04",
         desc: "기획 디자인 및 프론트엔드 개발",
         url:"https://wihyanghoon.github.io/nonflix/",
         explanation: {
@@ -69,7 +69,7 @@ const projectList = [
         ],
         mainImg: "./img/preject/blended.jpg",
         stack: "React.js with TypeScript",
-        date: "2022.03 ~ 2023.03",
+        date: "2023.03 ~ 2023.03",
         desc: "기획 디자인 및 프론트엔드 개발",
         url:"https://wihyanghoon.github.io/Blended",
         explanation: {
@@ -89,7 +89,7 @@ const projectList = [
         ],
         mainImg: "./img/preject/photoshop.jpg",
         stack: "Html/CSS, Javascript",
-        date: "2022.11 ~ 2022.12",
+        date: "2022.11 ~ ing",
         desc: "기획 디자인 및 기능개발",
         explanation: {
             info: `개인 포트폴리오 사이트로 디자이너 출신인 정체성을 나타내고 싶어서 포토샵 프로그램을 컨셉으로 사이트를 제작했습니다`,
