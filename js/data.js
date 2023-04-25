@@ -1,22 +1,22 @@
 const projectList = [
     {
-        id: 31231231,
+        id: 4232354237353,
         No: 1,
-        title: '토이 프로젝트 - Blended',
+        title: '토이 프로젝트 - Recipe Video',
         img: [
             "./img/preject/blended01.jpg",
             "./img/preject/blended02.jpg",
         ],
         mainImg: "./img/preject/blended.jpg",
-        stack: "React.js with TypeScript",
-        date: "2022.03 ~ 2023.03",
-        desc: "기획 디자인 및 프론트엔드 개발",
-        url:"https://wihyanghoon.github.io/Blended",
+        stack: "Pug, Express.js",
+        date: "2022.04 ~ 2023.04",
+        desc: "프론트엔드, 백엔드 개발",
+        url:"https://recipevideo.herokuapp.com/",
         explanation: {
-            info: `React.js with TypeScript를 이용한 그라디언트 제네레이터 사이트 입니다.`,
-            function: `state값의 변경에 따른 폰트 및 CSS 변경 기능, AOS 라이브러리 이용한 스크롤 애니메이션 제작`,
-            stack: "React.js, Typescript",
-            github : "https://github.com/wihyanghoon/Blended",
+            info: `템플릿 엔진을 사용한 비디오 업로드 사이트, 기본적인 로그인, multerS3를 이용한 프로필 이미지 및 비디오를 업로드가 가능한 사이트`,
+            function: `반응형, session 로그인, 조건부 랜더링, 실시간 엘리먼트 랜더링, 회원가입, 로그인, 로그아웃, 소셜 로그인, 비디오 및 이미지 업로드, 비밀번호 변경, 검색`,
+            stack: "Pug, Express.js, mongoose",
+            github : "https://github.com/wihyanghoon/recipe",
         }
     },
     {
@@ -37,6 +37,46 @@ const projectList = [
             function: `세션방식 로그인 구현, 기본 CRUD 기능, 상태관리 리덕스 툴킷 사용`,
             stack: "React.js, Express.js",
             github : "https://github.com/Moobpl/Moobpl",
+        }
+    },
+    {
+        id: 151536436,
+        No: 1,
+        title: '토이 프로젝트 - couchfilx',
+        img: [
+            "./img/preject/blended01.jpg",
+            "./img/preject/blended02.jpg",
+        ],
+        mainImg: "./img/preject/blended.jpg",
+        stack: "React.js with TypeScript, Recoil, React Query",
+        date: "2022.04 ~ 2023.04",
+        desc: "기획 디자인 및 프론트엔드 개발",
+        url:"https://wihyanghoon.github.io/nonflix/",
+        explanation: {
+            info: `React.js with TypeScript를 이용한 미디어 정보사이트 입니다.`,
+            function: `반응형, 리액트 쿼리를 이용한 API 호출 및 캐싱, react motion framer를 활용한 인터렉티브한 애니메이션 효과`,
+            stack: "React.js, Typescript, Recoil, React Query",
+            github : "https://github.com/wihyanghoon/nonflix",
+        }
+    },
+    {
+        id: 31231231,
+        No: 1,
+        title: '토이 프로젝트 - Blended',
+        img: [
+            "./img/preject/blended01.jpg",
+            "./img/preject/blended02.jpg",
+        ],
+        mainImg: "./img/preject/blended.jpg",
+        stack: "React.js with TypeScript",
+        date: "2022.03 ~ 2023.03",
+        desc: "기획 디자인 및 프론트엔드 개발",
+        url:"https://wihyanghoon.github.io/Blended",
+        explanation: {
+            info: `React.js with TypeScript를 이용한 그라디언트 제네레이터 사이트 입니다.`,
+            function: `반응형, state값의 변경에 따른 폰트 및 CSS 변경 기능, AOS 라이브러리 이용한 스크롤 애니메이션 제작`,
+            stack: "React.js, Typescript",
+            github : "https://github.com/wihyanghoon/Blended",
         }
     },
     {
