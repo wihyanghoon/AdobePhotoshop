@@ -1,27 +1,7 @@
 const projectList = [
     {
-        id: 4232354237353,
-        No: 1,
-        title: '토이 프로젝트 - Recipe Video',
-        img: [
-            "./img/preject/blended01.jpg",
-            "./img/preject/blended02.jpg",
-        ],
-        mainImg: "./img/preject/blended.jpg",
-        stack: "Pug, Express.js",
-        date: "2023.04 ~ 2023.04",
-        desc: "프론트엔드, 백엔드 개발",
-        url:"https://recipevideo.herokuapp.com/",
-        explanation: {
-            info: `템플릿 엔진을 사용한 비디오 업로드 사이트, 기본적인 로그인, multerS3를 이용한 프로필 이미지 및 비디오를 업로드가 가능한 사이트`,
-            function: `반응형, session 로그인, 조건부 랜더링, 실시간 엘리먼트 랜더링, 회원가입, 로그인, 로그아웃, 소셜 로그인, 비디오 및 이미지 업로드, 비밀번호 변경, 검색`,
-            stack: "Pug, Express.js, mongoose",
-            github : "https://github.com/wihyanghoon/recipe",
-        }
-    },
-    {
         id: 5656765,
-        No: 2,
+        No: 1,
         title: '팀 프로젝트 - Moobpl',
         img: [
             "./img/preject/moobpl01.jpg",
@@ -40,17 +20,37 @@ const projectList = [
         }
     },
     {
-        id: 151536436,
-        No: 1,
-        title: '토이 프로젝트 - couchfilx',
+        id: 4232354237353,
+        No: 2,
+        title: '토이 프로젝트 - Recipe Video',
         img: [
-            "./img/preject/blended01.jpg",
-            "./img/preject/blended02.jpg",
+            "./img/preject/recipe01.jpg",
+            "./img/preject/recipe02.jpg",
         ],
-        mainImg: "./img/preject/blended.jpg",
+        mainImg: "./img/preject/recipe.jpg",
+        stack: "Pug, Express.js",
+        date: "2023.04 ~ 2023.04",
+        desc: "프론트엔드, 백엔드 개발",
+        url:"https://recipevideo.herokuapp.com/",
+        explanation: {
+            info: `템플릿 엔진을 사용한 비디오 업로드 사이트, 기본적인 로그인, multerS3를 이용한 프로필 이미지 및 비디오를 업로드가 가능한 사이트`,
+            function: `반응형, session 로그인, 조건부 랜더링, 실시간 엘리먼트 랜더링, 회원가입, 로그인, 로그아웃, 소셜 로그인, 비디오 및 이미지 업로드, 비밀번호 변경, 검색`,
+            stack: "Pug, Express.js, mongoose",
+            github : "https://github.com/wihyanghoon/recipe",
+        }
+    },
+    {
+        id: 151536436,
+        No: 3,
+        title: '토이 프로젝트 - couchflix',
+        img: [
+            "./img/preject/couchflix01.jpg",
+            "./img/preject/couchflix02.jpg",
+        ],
+        mainImg: "./img/preject/couchflix.jpg",
         stack: "React.js with TypeScript, Recoil, React Query",
         date: "2023.04 ~ 2023.04",
-        desc: "기획 디자인 및 프론트엔드 개발",
+        desc: "프론트엔드 개발",
         url:"https://wihyanghoon.github.io/nonflix/",
         explanation: {
             info: `React.js with TypeScript를 이용한 미디어 정보사이트 입니다.`,
@@ -61,7 +61,7 @@ const projectList = [
     },
     {
         id: 31231231,
-        No: 1,
+        No: 4,
         title: '토이 프로젝트 - Blended',
         img: [
             "./img/preject/blended01.jpg",
@@ -81,7 +81,7 @@ const projectList = [
     },
     {
         id: 454214,
-        No: 3,
+        No: 5,
         title: '포트폴리오사이트 - The PhotoShop',
         img: [
             "./img/preject/photoshop01.jpg",
@@ -101,7 +101,7 @@ const projectList = [
     },
     {
         id: 12312321,
-        No: 4,
+        No: 6,
         title: '수자원공사 - 물, 자연 그리고 사람',
         img: [
             "./img/preject/k-water01.jpg",
@@ -119,7 +119,7 @@ const projectList = [
         }
     }, {
         id: 12312312,
-        No: 5,
+        No: 7,
         title: '대한주택건설협회 - 주택플러스',
         img: [
             "./img/preject/plus-h01.jpg",
@@ -137,7 +137,7 @@ const projectList = [
         }
     }, {
         id: 23123123123,
-        No: 6,
+        No: 8,
         title: '하이원리조트 - 1340',
         img: [
             "./img/preject/1340-01.jpg",
@@ -156,7 +156,7 @@ const projectList = [
     },
     {
         id: 31235465676787,
-        No: 7,
+        No: 9,
         title: 'LH 한국토지주택공사 - withLH',
         img: [
             "./img/preject/lh01.jpg",
@@ -174,7 +174,7 @@ const projectList = [
         }
     }, {
         id: 4557657654543,
-        No: 8,
+        No: 10,
         title: '한국남동발전 - 남동愛',
         img: [
             "./img/preject/koen01.jpg",
