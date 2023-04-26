@@ -51,12 +51,12 @@ const projectList = [
         stack: "React.js with TypeScript, Recoil, React Query",
         date: "2023.04 ~ 2023.04",
         desc: "프론트엔드 개발",
-        url:"https://wihyanghoon.github.io/nonflix/",
+        url:"https://wihyanghoon.github.io/couchflix/",
         explanation: {
             info: `React.js with TypeScript를 이용한 미디어 정보사이트 입니다.`,
             function: `반응형, 리액트 쿼리를 이용한 API 호출 및 캐싱, react motion framer를 활용한 인터렉티브한 애니메이션 효과`,
             stack: "React.js, Typescript, Recoil, React Query",
-            github : "https://github.com/wihyanghoon/nonflix",
+            github : "https://github.com/wihyanghoon/couchflix",
         }
     },
     {
