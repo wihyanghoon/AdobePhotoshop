@@ -28,7 +28,7 @@ const projectList = [
             "./img/preject/recipe02.jpg",
         ],
         mainImg: "./img/preject/recipe.jpg",
-        stack: "Pug, Express.js",
+        stack: "Pug, Express.js, babel, webpack",
         date: "2023.04 ~ 2023.04",
         desc: "프론트엔드, 백엔드 개발",
         url:"https://recipevideo.herokuapp.com/",
