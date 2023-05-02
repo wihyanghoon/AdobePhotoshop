@@ -33,7 +33,7 @@ const projectList = [
         desc: "프론트엔드, 백엔드 개발",
         url:"https://recipevideo.herokuapp.com/",
         explanation: {
-            info: `템플릿 엔진을 사용한 비디오 업로드 사이트, 기본적인 로그인, multerS3를 이용한 프로필 이미지 및 비디오를 업로드가 가능한 사이트`,
+            info: `템플릿 엔진 pug를 사용한 비디오 업로드 사이트, 기본적인 로그인, multerS3를 이용한 프로필 이미지 및 비디오를 업로드가 가능한 사이트`,
             function: `반응형, session 로그인, 조건부 랜더링, 실시간 엘리먼트 랜더링, 회원가입, 로그인, 로그아웃, 소셜 로그인, 비디오 및 이미지 업로드, 비밀번호 변경, 검색`,
             stack: "Pug, Express.js, mongoose",
             github : "https://github.com/wihyanghoon/recipe",
