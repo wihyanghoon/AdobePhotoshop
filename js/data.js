@@ -2,6 +2,44 @@ const projectList = [
     {
         id: 5656765,
         No: 1,
+        title: 'CJ - CJ그룹 사이트',
+        img: [
+            "./img/preject/moobpl01.jpg",
+            "./img/preject/moobpl02.jpg",
+        ],
+        mainImg: "./img/preject/moobpl.jpg",
+        stack: "EJS, Typescript, SCSS",
+        date: "2023.07.10 ~ 2024.01.19",
+        desc: "프론트엔드 개발, 검색기능 및 동영샹 view, 국가별 redirection, 연관검색어 하이라이팅",
+        url:"https://www.cj.net/",
+        explanation: {
+            info: `회사 프로젝트로 CJ그룹사이트 제작 참여, 검색 기능 및 동영상 view 기능을 개발`,
+            function: `API 처리 및 검색 기능개발, 연관검색어 하이라이팅 및 검색어에 따른 조건부 랜더링, 구글애널리틱스 커스텀이벤트, 국가별 리다이렉션`,
+            stack: "EJS, Typescript, SCSS",
+        }
+    },
+    {
+        id: 5656765,
+        No: 1,
+        title: 'SAMSUNG - SmartThings-IFA explore',
+        img: [
+            "./img/preject/moobpl01.jpg",
+            "./img/preject/moobpl02.jpg",
+        ],
+        mainImg: "./img/preject/moobpl.jpg",
+        stack: "EJS, Typescript, SCSS",
+        date: "2023.07.10 ~ 2024.01.19",
+        desc: "프론트엔드 개발, 검색기능 및 동영샹 view, 국가별 redirection, 연관검색어 하이라이팅",
+        url:"https://www.cj.net/",
+        explanation: {
+            info: `회사 프로젝트로 CJ그룹사이트 제작 참여, 검색 기능 및 동영상 view 기능을 개발`,
+            function: `API 처리 및 검색 기능개발, 연관검색어 하이라이팅 및 검색어에 따른 조건부 랜더링, 구글애널리틱스 커스텀이벤트, 국가별 리다이렉션`,
+            stack: "EJS, Typescript, SCSS",
+        }
+    },
+    {
+        id: 5656765,
+        No: 1,
         title: '팀 프로젝트 - Moobpl',
         img: [
             "./img/preject/moobpl01.jpg",
