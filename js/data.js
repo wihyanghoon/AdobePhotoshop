@@ -2,6 +2,25 @@ const projectList = [
     {
         id: 5656765,
         No: 1,
+        title: '도요타 - 도요타 코리아 웹사이트',
+        img: [
+            "./img/preject/moobpl01.jpg",
+            "./img/preject/moobpl02.jpg",
+        ],
+        mainImg: "./img/preject/moobpl.jpg",
+        stack: "React.js, emotion, Recoil",
+        date: "2023.09.18 ~ 2024.01.19",
+        desc: "사이트 연간 운영, 프론트엔드 개발, 이벤트 페이지 개발",
+        url:"https://www.toyota.co.kr/",
+        explanation: {
+            info: `연간운영, 이벤트 페이지 개발`,
+            function: `상태관리 및 인터렉션`,
+            stack: "React.js, emotion, Recoil",
+        }
+    },
+    {
+        id: 5656765,
+        No: 1,
         title: 'CJ - CJ그룹 웹사이트',
         img: [
             "./img/preject/moobpl01.jpg",
@@ -10,12 +29,31 @@ const projectList = [
         mainImg: "./img/preject/moobpl.jpg",
         stack: "EJS, Typescript, SCSS",
         date: "2023.07.10 ~ 2024.01.19",
-        desc: "프론트엔드 개발, 검색기능 및 동영샹 view, 국가별 redirection, 연관검색어 하이라이팅",
+        desc: "사이트 구축, 프론트엔드 개발, 검색기능 및 동영샹 view, 국가별 redirection, 연관검색어 하이라이팅",
         url:"https://www.cj.net/",
         explanation: {
             info: `회사 프로젝트로 CJ그룹사이트 제작 참여, 검색 기능 및 동영상 view 기능을 개발`,
             function: `API 처리 및 검색 기능개발, 연관검색어 하이라이팅 및 검색어에 따른 조건부 랜더링, 구글애널리틱스 커스텀이벤트, 국가별 리다이렉션`,
             stack: "EJS, Typescript, SCSS",
+        }
+    },
+    {
+        id: 5656765,
+        No: 1,
+        title: 'Lexus - Lexus Korea Website',
+        img: [
+            "./img/preject/moobpl01.jpg",
+            "./img/preject/moobpl02.jpg",
+        ],
+        mainImg: "./img/preject/moobpl.jpg",
+        stack: "Vue.js, SCSS",
+        date: "2023.06.19 ~",
+        desc: "프론트엔드 개발, 시승신청 기능 개발",
+        url:"https://www.lexus.co.kr/test-drive/?page_id=main",
+        explanation: {
+            info: `연간 운영 및 시승신청 페이지 리뉴얼 작업`,
+            function: `조건부 랜더링, 본인인증, form 체크, post 기능`,
+            stack: "Vue.js, SCSS",
         }
     },
     {
@@ -30,7 +68,7 @@ const projectList = [
         stack: "Gatsby, GraphQL, Typescript, MDX, SCSS",
         date: "2023.07.24 ~ 2023.11.03",
         desc: "프론트엔드 개발, 구글애널리틱스",
-        url:"https://www.cj.net/",
+        url:"https://partners.smartthings.com/explore",
         explanation: {
             info: `Sustainability경험을 포함한 SmartThings 경험 스토리를 소개하고 추천하도록 목업을 제작하고,
             이를 한국총괄 프로모션, SmartThings.com 사이트, 삼성 닷컴 등에 적용 IFA 2023 삼성 스마트싱스 행사장에서 사용되고 후에 스마트싱스 사이트 및 삼성전자 사이트에서도 활용됨.`,
