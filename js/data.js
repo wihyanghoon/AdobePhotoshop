@@ -2,25 +2,6 @@ const projectList = [
     {
         id: 5656765,
         No: 1,
-        title: '도요타 - 도요타 코리아 웹사이트',
-        img: [
-            "./img/preject/moobpl01.jpg",
-            "./img/preject/moobpl02.jpg",
-        ],
-        mainImg: "./img/preject/moobpl.jpg",
-        stack: "React.js, emotion, Recoil",
-        date: "2023.09.18 ~ 2024.01.19",
-        desc: "사이트 연간 운영, 프론트엔드 개발, 이벤트 페이지 개발",
-        url:"https://www.toyota.co.kr/",
-        explanation: {
-            info: `연간운영, 이벤트 페이지 개발`,
-            function: `상태관리 및 인터렉션`,
-            stack: "React.js, emotion, Recoil",
-        }
-    },
-    {
-        id: 5656765,
-        No: 1,
         title: 'CJ - CJ그룹 웹사이트',
         img: [
             "./img/preject/cj-01.jpg",
@@ -32,28 +13,9 @@ const projectList = [
         desc: "사이트 구축, 프론트엔드 개발, 검색기능 및 동영샹 view, 국가별 redirection, 연관검색어 하이라이팅",
         url:"https://www.cj.net/",
         explanation: {
-            info: `회사 프로젝트로 CJ그룹사이트 제작 참여, 검색 기능 및 동영상 view 기능을 개발`,
+            info: `CJ그룹 사이트 제작 참여, 검색 기능 및 동영상 view 기능을 개발`,
             function: `API 처리 및 검색 기능개발, 연관검색어 하이라이팅 및 검색어에 따른 조건부 랜더링, 구글애널리틱스 커스텀이벤트, 국가별 리다이렉션`,
             stack: "EJS, Typescript, SCSS",
-        }
-    },
-    {
-        id: 5656765,
-        No: 1,
-        title: 'Lexus - Lexus Korea Website',
-        img: [
-            "./img/preject/moobpl01.jpg",
-            "./img/preject/moobpl02.jpg",
-        ],
-        mainImg: "./img/preject/moobpl.jpg",
-        stack: "Vue.js, SCSS",
-        date: "2023.06.19 ~",
-        desc: "프론트엔드 개발, 시승신청 기능 개발",
-        url:"https://www.lexus.co.kr/test-drive/?page_id=main",
-        explanation: {
-            info: `연간 운영 및 시승신청 페이지 리뉴얼 작업`,
-            function: `조건부 랜더링, 본인인증, form 체크, post 기능`,
-            stack: "Vue.js, SCSS",
         }
     },
     {
@@ -74,6 +36,63 @@ const projectList = [
             이를 한국총괄 프로모션, SmartThings.com 사이트, 삼성 닷컴 등에 적용 IFA 2023 삼성 스마트싱스 행사장에서 사용되고 후에 스마트싱스 사이트 및 삼성전자 사이트에서도 활용됨.`,
             function: `조건에 따른 데이터 출력 및 상태관리`,
             stack: "Gatsby, GraphQL, Typescript, MDX, SCSS",
+        }
+    },
+    // {
+    //     id: 5656765,
+    //     No: 1,
+    //     title: '디자인 삼성 - 삼성 갤럭시 S24 시리즈 디자인스토리',
+    //     img: [
+    //         "./img/preject/smart-01.jpg",
+    //         "./img/preject/smart-02.jpg",
+    //     ],
+    //     mainImg: "./img/preject/smart.jpg",
+    //     stack: "Gatsby, GraphQL, Typescript, MDX, SCSS",
+    //     date: "2024.01.29 ~ 2024.03.15",
+    //     desc: "퍼블리싱 작업 및 인터렉션 구현",
+    //     url:"https://partners.smartthings.com/explore",
+    //     explanation: {
+    //         info: `삼성 갤럭시 S24 시리즈 디자인스토리 페이지로 인터렉션이 들어간 제품 소개 페이지`,
+    //         function: `GSAP를 이용한 스크롤 애니메이션`,
+    //         stack: "Html/CSS, Javascript",
+    //     }
+    // },
+    {
+        id: 5656765,
+        No: 1,
+        title: '도요타 - 도요타 코리아 웹사이트',
+        img: [
+            "./img/preject/toyota-01.jpg",
+            "./img/preject/toyota-02.jpg",
+        ],
+        mainImg: "./img/preject/toyota.jpg",
+        stack: "React.js, emotion, Recoil",
+        date: "2023.09.18 ~ 2024.01.19",
+        desc: "사이트 연간 운영, 프론트엔드 개발, 이벤트 페이지 개발",
+        url:"https://www.toyota.co.kr/",
+        explanation: {
+            info: `연간운영, 이벤트 페이지 개발`,
+            function: `상태관리 및 인터렉션`,
+            stack: "React.js, emotion, Recoil",
+        }
+    },
+    {
+        id: 5656765,
+        No: 1,
+        title: '렉서스 - 렉서스 코리아 웹사이트',
+        img: [
+            "./img/preject/lexus-01.jpg",
+            "./img/preject/lexus-02.jpg",
+        ],
+        mainImg: "./img/preject/lexus.jpg",
+        stack: "Vue.js, SCSS",
+        date: "2023.06.19 ~",
+        desc: "프론트엔드 개발, 시승신청 기능 개발",
+        url:"https://www.lexus.co.kr/test-drive/?page_id=main",
+        explanation: {
+            info: `연간 운영 및 시승신청 페이지 리뉴얼 작업`,
+            function: `조건부 랜더링, 본인인증, form 체크, 시승신청 post 기능`,
+            stack: "Vue.js, SCSS",
         }
     },
     {
