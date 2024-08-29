@@ -31,7 +31,7 @@ section article#left_menu ul {
 }
 
 
-section article#left_menu ul li:nth-child(2) {
+section article#left_menu ul li {
     margin-bottom: 15px;
     display: block;
     padding: 8px 20px 8px 20px;
@@ -41,14 +41,14 @@ section article#left_menu ul li:nth-child(2) {
     cursor: pointer;
 }
 
-section article#left_menu ul li a {
-    display: block;
-    padding: 8px 20px 8px 20px;
-    border: 2px solid #fff;
-    color: #fff;
-    border-radius: 50px;
-    margin-bottom: 15px;
-}
+/*section article#left_menu ul li a {*/
+/*    display: block;*/
+/*    padding: 8px 20px 8px 20px;*/
+/*    border: 2px solid #fff;*/
+/*    color: #fff;*/
+/*    border-radius: 50px;*/
+/*    margin-bottom: 15px;*/
+/*}*/
 
 
 section article#left_menu ul li:nth-child(2):hover {
@@ -57,8 +57,13 @@ section article#left_menu ul li:nth-child(2):hover {
     font-weight: 500;
 }
 
-section article#left_menu ul li a:hover {
+section article#left_menu ul li:hover {
     background-color: #fff;
+    color: #000;
+    font-weight: 500;
+}
+
+section article#left_menu ul li:hover a {
     color: #000;
     font-weight: 500;
 }
