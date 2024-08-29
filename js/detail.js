@@ -11,7 +11,6 @@ const background = document.querySelectorAll(".background .status_top li"),
     status_content = document.querySelector(".status_content"),
     wrap = document.querySelector("#wrap"),
     concept = document.querySelector(".status_explantion .concept"),
-    func = document.querySelector(".status_explantion .function"),
     stack = document.querySelector(".status_explantion .stack"),
     layer_container = document.querySelector(".layer_container"),
     title = document.getElementsByTagName("title")[0],
@@ -86,10 +85,14 @@ const getInfo = () => {
                 <img src="${projectList[i].img[1]}" alt="${projectList[i].img[1]}" />
             </div>`
 
-            if (projectList[i].explanation) {
-                concept.innerText = `${projectList[i].explanation.info}`
-                func.innerText = `${projectList[i].explanation.function}`
+            if (projectList[i].stack) {
                 stack.innerText = `${projectList[i].stack}`
+            }
+
+            if(projectList[i].exp) {
+                projectList[i].exp.forEach((item)=>{
+                    concept.innerHTML += `<li>${item}</li>`;
+                })
             }
 
 
@@ -102,10 +105,10 @@ const getInfo = () => {
                 wrap.appendChild(createA)
             }
 
-            if (projectList[i].explanation.github){
+            if (projectList[i].github){
                 gitgub.innerText = `Github`
-                githubUrl.innerText = `${projectList[i].explanation.github}`
-                githubUrl.href = `${projectList[i].explanation.github}`
+                githubUrl.innerText = `${projectList[i].github}`
+                githubUrl.href = `${projectList[i].github}`
             }
 
             for (let j = 0; j < projectList.length; j++) {
@@ -130,6 +133,7 @@ const getInfo = () => {
                     })
                 })
             }
+            break;
         }
     }
 }
