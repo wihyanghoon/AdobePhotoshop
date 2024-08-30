@@ -2,10 +2,10 @@ const projectList = [
     {
         title: '콜마 - 콜마글로벌 웹사이트',
         img: [
-            "./img/project/upcoming.webp",
-            "./img/project/upcoming.webp",
+            "./img/project/upcoming.jpg",
+            "./img/project/upcoming.jpg",
         ],
-        mainImg: "./img/project/upcoming.webp",
+        mainImg: "./img/project/upcoming.jpg",
         stack: "React.js, Emotion,TypeScript, Zustand, Sanity",
         date: "2024.06.03 ~ 2024.09 오픈예정",
         desc: "화장품 제조 및 제약회사 콜마의 글로벌 웹사이트 구축",
@@ -42,10 +42,10 @@ const projectList = [
     {
         title: '디자인삼성 - 삼성 갤럭시 S24 시리즈 디자인스토리',
         img: [
-            "./img/project/toyota-01.jpg",
-            "./img/project/toyota-02.jpg",
+            "./img/project/samsung-01.jpg",
+            "./img/project/samsung-02.jpg",
         ],
-        mainImg: "./img/project/toyota.jpg",
+        mainImg: "./img/project/samsung.jpg",
         stack: "Javascript, SCSS",
         date: "2024.01.29 ~ 2024.03.15",
         desc: "삼성 갤럭시 S24 디자인 소개 페이지 구축",
